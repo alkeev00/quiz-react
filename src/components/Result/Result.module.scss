@@ -1,0 +1,23 @@
+.result {
+	@apply w-full h-full flex flex-col items-center justify-center py-3 px-3 sm:py-5 sm:px-5 md:py-10  md:px-10 lg:px-20;
+}
+
+.title {
+	@apply text-3xl sm:text-5xl uppercase text-center mb-4 sm:mb-10;
+}
+
+.resultWrapper {
+	@apply border border-zinc-200 w-full h-full py-2 px-3 flex flex-col items-center justify-center gap-6;
+}
+
+.score {
+	@apply text-3xl;
+}
+
+.percent {
+	@apply text-3xl;
+}
+
+.restart {
+	@apply border border-zinc-200 py-3 px-10 uppercase text-xl hover:bg-zinc-200 hover:text-zinc-950 transition-colors duration-200 ease-in-out mt-10;
+}

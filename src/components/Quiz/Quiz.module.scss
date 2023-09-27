@@ -1,0 +1,31 @@
+.quiz {
+	@apply w-full h-full flex flex-col items-center justify-center py-3 px-3 sm:py-5 sm:px-5 md:py-10  md:px-10 lg:px-20;
+}
+
+.title {
+	@apply text-3xl sm:text-5xl uppercase text-center mb-4 sm:mb-10;
+}
+
+.quizWrapper {
+	@apply border border-zinc-200 w-full h-full py-2 px-3;
+}
+
+.statusBar {
+	@apply text-sm sm:text-lg flex justify-between md:text-xl lg:text-2xl;
+}
+
+.questionWrapper {
+	@apply flex flex-col gap-3 sm:gap-6 items-center justify-center w-full h-full;
+}
+
+.question {
+	@apply text-xl sm:text-3xl text-center leading-10 mb-10;
+}
+
+.answers {
+	@apply flex flex-col text-lg sm:text-xl gap-3 sm:gap-8;
+}
+
+.answer {
+	@apply list-none border border-zinc-900 py-3 px-10 hover:bg-zinc-200 hover:text-zinc-950 cursor-pointer hover:border-zinc-200 transition-colors duration-200 ease-in-out text-center;
+}

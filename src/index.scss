@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './styles/common.scss';
+@import './styles/variables.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+	body {
+		font-family: 'Lexend Exa', sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		@apply text-zinc-200 bg-zinc-950 m-0;
+	}
+}
